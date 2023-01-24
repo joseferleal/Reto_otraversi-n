@@ -1,0 +1,93 @@
+*{
+    background:#f3f5fc;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main{
+    display: flex; /*Nos permite alinear los elementos uno al lado del otro*/
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0A3871;}
+.text-area:focus{
+    outline:none;
+}
+
+.mensaje{
+    background: white;
+    background-image: url("Image.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    color: #0A3871;
+    margin: 20px 0px 0px 98px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.information{
+    color: #495057;
+    font-size: 18px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+#ButtonCopiar{
+    background: #D8DEF8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin:402px 0px 0px 108px;
+    position: absolute;
+    width: 336px;
+}
+
+#ButtonEncriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;    
+    width: 328px;
+}
+
+#ButtonDesencriptar{
+    background: #D8DEF8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}

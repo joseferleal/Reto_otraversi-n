@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>Encriptador</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <header> <img src="logo.png" alt="Logo de Alura" class="logo">  </header>
 <body>
@@ -21,10 +23,11 @@
                 <br>
                 <button type="button" id="ButtonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 <br>
-                <button type="button" id="ButtonCopiar">Copiar</button>
+                
             </div>
         </section>
         <section> <textarea  class="mensaje" cols="30" rows="10"></textarea>
+            <div><button type="button" id="ButtonCopiar" onclick="copiar()">Copiar</button> </div>
            </section>
 
 

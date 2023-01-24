@@ -20,10 +20,6 @@ function btnDesencriptar(){
 }
 
 
-
-
-
-
 function Encriptar(stringEncriptada){
         let matrizCodigo=[["e", "enter"],["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
         stringEncriptada=stringEncriptada.toLowerCase()
@@ -50,6 +46,11 @@ function Desencriptar(stringDesencriptada){
     }
 
 
+    function copiar(){
+        var contenido = document.querySelector(".mensaje");
+        contenido.select();
+        document.execCommand("copy");
+    }
 
 
 /* iptado.replace(/o/img, "ober");
